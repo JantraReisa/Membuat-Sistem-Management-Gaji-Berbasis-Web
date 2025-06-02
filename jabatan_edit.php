@@ -58,14 +58,10 @@ $row = mysqli_fetch_assoc($data);
                             <label class="form-label">Gaji Pokok</label>
                             <input type="number" name="gaji_pokok" class="form-control" value="<?= htmlspecialchars($row['gaji_pokok']) ?>" required>
                         </div>
-                        <div class="d-flex justify-content-between">
-                            <button type="submit" name="update" class="btn btn-update">
+                            <button type="submit" name="update" class="btn btn-success">
                                 <i class="bi bi-save me-1"></i> Update
                             </button>
-                            <a href="jabatan.php" class="btn btn-secondary">
-                                <i class="bi bi-arrow-left me-1"></i> Kembali
-                            </a>
-                        </div>
+                            <a href="jabatan.php" class="btn btn-secondary">← Kembali</a>
                     </form>
 
                     <?php

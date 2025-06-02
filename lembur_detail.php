@@ -37,9 +37,6 @@ $total = $tarif * $jam;
         <div class="row justify-content-center">
             <div class="col-md-11">
                 <div class="d-flex align-items-center mb-3">
-                    <a href="lembur.php" class="btn btn-outline-secondary me-2">
-                        <i class="bi bi-arrow-left-circle"></i> Kembali
-                    </a>
                     <h4 class="mb-0">Detail Tarif Lembur</h4>
                 </div>
                 <div class="card shadow-sm">
@@ -61,6 +58,9 @@ $total = $tarif * $jam;
                         </ul>
                     </div>
                 </div>
+                <a href="lembur.php" class="btn btn-secondary mt-4">
+                    <i></i> ← Kembali
+                </a>
             </div>
         </div>
     </div>

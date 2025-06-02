@@ -58,9 +58,7 @@ $row = mysqli_fetch_assoc($query);
                     </div>
                 <?php endif; ?>
 
-                <a href="rating.php" class="btn btn-outline-secondary mt-4">
-                    <i class="bi bi-arrow-left"></i> Kembali
-                </a>
+                <a href="rating.php" class="btn btn-secondary mt-4">← Kembali</a>
             </div>
         </div>
     </div>

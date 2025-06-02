@@ -71,7 +71,9 @@ if (isset($_POST['simpan'])) {
                             <label class="form-label">Jumlah Jam</label>
                             <input type="number" name="jumlah_jam" class="form-control" required>
                         </div>
-                        <button type="submit" name="simpan" class="btn btn-primary w-100">Simpan</button>
+                        <button type="submit" name="simpan" class="btn btn-success">Simpan</button>
+                        <a href="lembur.php" class="btn btn-secondary">← Kembali</a>
+
                     </form>
                 </div>
             </div>

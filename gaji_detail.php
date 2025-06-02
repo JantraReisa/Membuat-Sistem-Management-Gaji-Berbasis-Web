@@ -90,9 +90,6 @@ $total_gaji = $gaji_pokok + $total_lembur;
         <div class="col-md-10 ms-sm-auto col-lg-10 px-4 mt-4">
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <h4>Detail Gaji Karyawan</h4>
-                <a href="gaji.php" class="btn btn-secondary">
-                    <i class="bi bi-arrow-left"></i> Kembali
-                </a>
             </div>
 
             <table class="table table-bordered">
@@ -140,6 +137,9 @@ $total_gaji = $gaji_pokok + $total_lembur;
                     </tr>
                 </tbody>
             </table>
+            <a href="gaji.php" class="btn btn-secondary">
+                <i class="bi bi-arrow-left"></i> Kembali
+            </a>
         </div>
     </div>
 </div>

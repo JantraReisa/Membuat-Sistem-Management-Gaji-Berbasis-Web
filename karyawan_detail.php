@@ -128,8 +128,8 @@ elseif ($jabatan === 'supervisor') $badgeClass = 'dark';
                 </table>
 
                 <div class="d-flex gap-2 mt-4 back-btn">
-                    <a href="karyawan_edit.php?id=<?= $data['id'] ?>" class="btn btn-primary shadow-sm px-4">Edit</a>
-                    <a href="karyawan.php" class="btn btn-outline-secondary px-4">← Kembali</a>
+                    <a href="karyawan_edit.php?id=<?= $data['id'] ?>" class="btn btn-success shadow-sm px-4">Edit</a>
+                    <a href="karyawan.php" class="btn btn-secondary px-4">← Kembali</a>
                 </div>
             </div>
         </div>

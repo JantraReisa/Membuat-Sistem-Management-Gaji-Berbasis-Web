@@ -79,14 +79,12 @@ if (isset($_POST['simpan'])) {
                         <label for="nilai_rating" class="form-label">Nilai Rating</label>
                         <input type="number" name="nilai_rating" class="form-control" min="1" max="5" required>
                     </div>
-                    <div class="d-flex justify-content-end gap-2">
-                        <a href="rating.php" class="btn btn-secondary">
-                            <i class="bi bi-arrow-left-circle"></i> Kembali
-                        </a>
                         <button type="submit" name="simpan" class="btn btn-success">
                             <i class="bi bi-check-circle"></i> Simpan
                         </button>
-                    </div>
+                        <a href="rating.php" class="btn btn-secondary">
+                            <i></i> ← Kembali
+                        </a>
                 </form>
             </div>
         </div>

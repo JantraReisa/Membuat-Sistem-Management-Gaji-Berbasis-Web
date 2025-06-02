@@ -62,14 +62,12 @@ $data = mysqli_fetch_assoc($query);
                             <label class="form-label">Total Gaji</label>
                             <input type="number" name="total_gaji" class="form-control" value="<?= $data['total_gaji'] ?>" required>
                         </div>
-                        <div class="d-flex justify-content-between">
-                            <a href="gaji.php" class="btn btn-secondary">
-                                <i class="bi bi-arrow-left"></i> Kembali
-                            </a>
                             <button type="submit" name="update" class="btn btn-success">
                                 <i class="bi bi-save"></i> Simpan Perubahan
                             </button>
-                        </div>
+                            <a href="gaji.php" class="btn btn-secondary">
+                                <i class="bi bi-arrow-left"></i> Kembali
+                            </a>
                     </form>
                     <?php
                     if (isset($_POST['update'])) {

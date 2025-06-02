@@ -21,7 +21,7 @@
                 <input type="number" name="gaji_pokok" class="form-control" required>
             </div>
             <button type="submit" name="simpan" class="btn btn-success">Simpan</button>
-            <a href="jabatan.php" class="btn btn-secondary">Kembali</a>
+            <a href="jabatan.php" class="btn btn-secondary">← Kembali</a>
         </form>
 
         <?php

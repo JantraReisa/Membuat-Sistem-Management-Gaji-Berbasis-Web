@@ -141,8 +141,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <div class="invalid-feedback">Rating wajib dipilih.</div>
             </div>
 
-            <button type="submit" class="btn btn-primary">Update</button>
-            <a href="karyawan.php" class="btn btn-secondary">Kembali</a>
+            <button type="submit" class="btn btn-success">Update</button>
+            <a href="karyawan.php" class="btn btn-secondary">← Kembali</a>
         </form>
     </div>
 </div>

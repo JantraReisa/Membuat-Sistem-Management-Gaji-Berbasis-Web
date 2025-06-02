@@ -77,11 +77,11 @@ if (isset($_POST['update'])) {
                 <label class="form-label">Nilai Rating</label>
                 <input type="number" name="nilai_rating" class="form-control" value="<?= htmlspecialchars($data['nilai_rating']) ?>" min="1" max="5" required>
             </div>
-            <button type="submit" name="update" class="btn btn-primary">
+            <button type="submit" name="update" class="btn btn-success">
                 <i class="bi bi-save me-1"></i>Update
             </button>
             <a href="rating.php" class="btn btn-secondary">
-                <i class="bi bi-arrow-left-circle me-1"></i>Kembali
+                <i></i>← Kembali
             </a>
         </form>
     </div>
